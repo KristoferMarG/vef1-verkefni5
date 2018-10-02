@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 20px;
+}
+
+/* Texti */
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  word-break: break-word;
+  margin: 5px;
+}
+
+p { line-height: 1.5em; }
+
+
+
+/* Spjöld */
+
+.cards {
+  padding: 5px;
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background: #fff;
+  border: 2px solid;
+  border-color: #aaa;
+  border-radius: 5px;
+  max-width: 470px;
+  max-height: 300px;
+  min-width: 470px;
+  margin-bottom: 10px;
+
+}
+
+.card__contents {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.card__paragraph{
+  overflow-y: auto;
+  word-break: break-word;
+}
+
+/* Myndir */
+
+img {
+  margin-left: 1em;
+  width: 150px;
+}
+
+/* Listar */
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+}
+
+li {
+  display: flex;
+  margin: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
