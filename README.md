@@ -1,1 +1,1 @@
-# vef1-verkefni5
+# Verkefni 5 - Vefforritun 1
